@@ -129,14 +129,12 @@ header .mobile {
   padding: 4rem 5%;
   background-color: #f3f3f3;
 }
-
 .feature {
   flex: 1;
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
 }
-
 .feature .image-container {
   width: 90%;
   height: 65%;
@@ -374,7 +372,7 @@ footer .copyright {
     display: none;
   }
 }
-/*---------------------------------------------------*/
+/* Mobile Media Queries */
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
@@ -397,9 +395,12 @@ footer .copyright {
     margin-right: 95px;
 }
 #quotes-section  {
-   height: 270px;
+   height: 320px;
 }
 #quotes-section  .quote-citation {
-  margin-top: 12px;
-}
+  margin-top: 15px;
+  }
+  footer {
+    width: auto;
+  }
 }
