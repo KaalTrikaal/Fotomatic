@@ -227,7 +227,8 @@ footer .content {
 footer .copyright {
   flex-grow: 1;
 }
-/*----------------------------------------------------------*/
+
+/* Media Queries Section */
 
 @media only screen and (max-width: 760px) {
   #sign-up-section {
@@ -261,19 +262,6 @@ footer .copyright {
   }
 }
 
-@media only screen and (max-width: 450px) {
-  #sign-up-section {
-    height: 20rem;
-  }
-
-  #sign-up-cta h1 {
-    font-size: 2.25rem;
-  }
-
-  #sign-up-cta h2 {
-    font-size: 2rem;
-  }
-}
 
 @media only screen and (max-width: 890px) {
   .feature h2 {
@@ -385,4 +373,33 @@ footer .copyright {
   #filters-section .extra {
     display: none;
   }
+}
+/*---------------------------------------------------*/
+@media only screen and (max-width: 450px) {
+  #sign-up-section {
+    height: 20rem;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 2.25rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2rem;
+  }
+  #sign-up-cta .cursive {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 95px;
+  }
+  #sign-up-cta .striking {
+    margin-bottom: 165px;
+    margin-right: 95px;
+}
+#quotes-section  {
+   height: 270px;
+}
+#quotes-section  .quote-citation {
+  margin-top: 12px;
+}
 }
